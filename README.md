@@ -1,68 +1,15 @@
-# electron-react-node-boilerblate
+# The New MyLol
+**What Is The New MyLol**
 
-Walkthrough described at https://medium.com/jstack-eu/using-electron-with-react-and-node-b498fbf23272
+The New MyLol is a custom made youth social media network aimed for connecting teens & pre-teens together. The idea behind The New MyLol is to provide a safe enivoriment where teens & pre-teens can connect. We haven't formally come up with a new name yet but for development purposes we are calling it The New MyLol for fun because why not?
 
-**Description**
+**What is it built with?**
+The New MyLol is built with React & NodeJS. We are using modern web technologies to provide a better and easier experiences for pre-teens and teens to connect with each other.
 
-Boilerplate project to quickly get started with Electron, React and Node
-containing following features:
+We are the only youth teen dating website out that offers built-in video & audio call functionality, an omegle like feature and a clubhouse like feature. You will also be able to download The New MyLol natively across of all of your devices for a better user experience. Teens & Pre-teens will enjoy a friendly user experinece.
 
-- Electron v5
-- React using react-app-rewired
-- Node using babel to transpile
-- Live reload
-- Packaging of Electron app fully functional
+It's all about having fun and learning how to date!
 
-**How to use**
-
-The package.json contains following commands:
-
-```bash
-# starts electron with React and Node in development mode
-npm start
-
-# builds the react application, the output will be in /build
-npm run react-build
-
-# starts the react application on localhost:3000
-npm run react-start
-
-# builds the node application, the output will be in /build-server
-npm run server-build
-
-# runs the node application in development mode
-npm run server-start
-
-# starts the electron process and enables live reload
-npm run electron-dev
-
-# Starts the packaging process for Electron, output will be in /dist
-npm run electron-pack
-
-# Will be automatically started by electron-pack, builds the react and node applications
-npm run preelectron-pack
-```
-
-**Folder structure**
-
-An overview of the folder structure can be found below:
-
-```
-|
-|-- /build (output of the built react application)
-|
-|-- /build-server (output of the built node application)
-|
-|-- /dist (output of the completely built Electron app)
-|
-|-- /public (contains the index.html, which will be picked up by react-app-rewired)
-|
-|-- /scripts (scripts to enable live reload)
-|
-|-- /server (node source files)
-|
-|-- /src (react source files)
-```
 
 ## License
 

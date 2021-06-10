@@ -16,7 +16,7 @@ function createWindow() {
 
     // Create the browser window.
     mainWindow = new BrowserWindow({
-        width: 800,
+        width: 1000,
         height: 600,
         webPreferences: {
             nodeIntegration: true
@@ -39,7 +39,11 @@ function createWindow() {
         // in an array if your app supports multi windows, this is the time
         // when you should delete the corresponding element.
         mainWindow = null
-    })
+    });
+
+    //Hide menu bar
+    mainWindow.setMenuBarVisibility(false) //partially
+
 }
 
 // This method will be called when Electron has finished

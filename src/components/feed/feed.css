@@ -1,0 +1,5 @@
+.feed {
+   flex: 5.5; 
+   height: calc(100vh - 10vh);
+   padding: 2vh 2vw;
+}

@@ -1,0 +1,104 @@
+.sidebar {
+    flex: 3.5;
+    height: calc(100vh - 10vh);
+    overflow-y: scroll;
+    border-radius: 0px !important;
+}
+
+::-webkit-scrollbar {
+    width: 1vh;
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar-track { 
+    background-color: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb { 
+    background-color: rgb(179,179,179);
+    border-radius: 5px;
+    transition: background-color 0.2s ease-in-out;
+}
+
+::-webkit-scrollbar-thumb:hover { 
+    background-color: rgb(141, 132, 132);
+}
+
+.sidebarWrapper {
+    padding: 2vh 2vw;
+}
+
+.sidebarList {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.sidebarListItem { 
+    display: flex;
+    align-items: center;
+    margin-bottom: 1vh;
+    transition: background-color 0.1s ease-in-out;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.sidebarListItem:hover {
+    background-color: rgb(238, 224, 224);
+}
+
+.sidebarIcon {
+    margin-right: 2vh;
+    margin-left: 2vh;
+}
+
+.sidebarButton {
+    width: 50%;
+    border: none;
+    padding: 1.5vh 1.5vw;
+    margin-bottom: 2vh;
+    cursor: pointer;
+    font-weight: 500;
+    background-color: rgb(192, 179, 179);
+    border-radius: 5px;
+    outline: none;
+    transition: background-color 0.1s ease-in-out;
+    margin-left: 2vh;
+}
+
+.sidebarButton:hover {
+    background-color: rgb(161, 155, 155);
+}
+
+.sidebarFriendList {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.sidebarFriend {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2.5vh;
+    margin-top: 2.5vh;
+    margin-left: 2vh;
+    transition: background-color 0.1s ease-in-out;
+    border-radius: 5px;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+}
+
+.sidebarFriend:hover {
+    background-color: rgb(161, 155, 155);
+}
+
+.sidebarFriendImg {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 2.5vh;
+    background-color: lightgrey;
+}
